@@ -107,8 +107,8 @@ export const getServerSideProps = async () => {
 
 	return {
 		props: {
-			socialMedia: socialMedia[0],
-			spotify,
+			socialMedia: socialMedia[0] || {},
+			spotify: spotify || {},
 		},
 	};
 };
