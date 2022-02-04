@@ -102,12 +102,12 @@ export default function HomePage({ socialMedia, spotify }) {
 }
 
 export const getServerSideProps = async () => {
-	// const socialMedia = await getSocialMediaData();
 	let spotify = await getListeningData();
+	const socialMedia = await getSocialMediaData();
 
 	return {
 		props: {
-			socialMedia: {},
+			socialMedia: socialMedia,
 			spotify,
 		},
 	};
