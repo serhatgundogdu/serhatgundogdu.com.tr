@@ -4,8 +4,8 @@ import { useRouter } from "next/router";
 const Header = () => {
 	const router = useRouter();
 	return (
-		<header className="flex items-center justify-center py-4 px-4 h-16 max-w-5xl mx-auto mt-12 bg-transparent ">
-			<nav className="flex gap-x-4 text-gray-500 text-bold font-semibold ">
+		<header className="flex items-center justify-center h-16 max-w-5xl px-4 py-4 mx-auto mt-12 bg-transparent ">
+			<nav className="flex font-semibold text-gray-500 gap-x-4 text-bold ">
 				<Link href="/">
 					<a
 						className={`transition duration-500 hover:text-white ${
@@ -31,6 +31,15 @@ const Header = () => {
 						}`}
 					>
 						Projects
+					</a>
+				</Link>
+				<Link href="/cats">
+					<a
+						className={`transition duration-500 hover:text-white ${
+							router.pathname == "/cats" && "text-white"
+						}`}
+					>
+						Hera&Maya
 					</a>
 				</Link>
 			</nav>
