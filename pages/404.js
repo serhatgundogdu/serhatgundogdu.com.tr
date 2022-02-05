@@ -6,7 +6,7 @@ const Forofor = () => {
 	return (
 		<Layout
 			title={"Serhat Gündoğdu | 404 Not Found"}
-			description={"My Portfolio"}
+			description={"404 Not Found"}
 		>
 			<main className="w-full h-full">
 				<section className="absolute max-w-5xl pt-16 mx-auto text-center transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 md:pt-8">
