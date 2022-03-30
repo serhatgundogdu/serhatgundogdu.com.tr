@@ -29,10 +29,7 @@ export default function HomePage({ socialMedia, spotify }) {
 						href={socialMedia?.instagramUrl}
 						Icon={AiFillInstagram}
 					></SocialMediaIcon>
-					<SocialMediaIcon
-						href={socialMedia?.twitterUrl}
-						Icon={AiFillTwitterCircle}
-					></SocialMediaIcon>
+			
 					<SocialMediaIcon
 						href={socialMedia?.linkedInUrl}
 						Icon={AiFillLinkedin}
