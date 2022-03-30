@@ -64,13 +64,13 @@ export default function HomePage({ socialMedia, spotify }) {
 							<div>
 								<h3 className="flex mb-3 text-xl font-semibold gap-x-2 text-[#1DB954]">
 									<BsSpotify className=" w-7 h-7" />
-									Recommended Playlist
+								        Currenly Listening
 								</h3>
 								<a
 									className="text-2xl font-bold transition-colors duration-400 hover:text-gray-300"
-									href={socialMedia?.recommendedPlaylist}
+				
 								>
-									{socialMedia?.recommendedPlaylistName}
+									Offline
 								</a>
 							</div>
 						)}
