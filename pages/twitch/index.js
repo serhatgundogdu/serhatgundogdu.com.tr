@@ -15,7 +15,7 @@ const ProjectsPage = () => {
                 frameborder="0"
                 height="500"
                 width="100%"
-                src="https://player.twitch.tv/?channel=mrserhatg&parent=localhost&muted=false"
+                src="https://player.twitch.tv/?channel=mrserhatg&parent=serhatgundogdu.com.tr&muted=false"
               ></iframe>
             </div>
             <div></div>
